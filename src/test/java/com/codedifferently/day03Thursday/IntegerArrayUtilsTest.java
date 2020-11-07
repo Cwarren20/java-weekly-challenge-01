@@ -11,7 +11,7 @@ public class IntegerArrayUtilsTest {
         Integer expected = 15;
 
         // : When
-        Integer actual = IntegerArrayUtils.getSum(input);
+        Integer[] actual = IntegerArrayUtils.getSum(input);
 
         // : Then
         Assert.assertEquals(expected, actual);
